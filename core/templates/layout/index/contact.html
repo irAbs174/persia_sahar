@@ -1,0 +1,111 @@
+<div class="contact-section container-lg pb-5 pt-md-5" id="contact">
+    <h2 class="fw-bolder h3 text-main text-center mb-2 mt-4 mb-md-3 mb-lg-5 gs_reveal">تماس با ما</h2>
+    <div class="row">
+        <div class="col-12 col-md-6 gs_reveal gs_reveal_fromRight">
+            <div class="bg--mc-light cpt position-relative p-3 mb-4">
+                <div class="contact-info">
+                    <p class="h5 fw-bold py-1">
+                        جهت طراح سوالات و پشتیابی با ما در تماس باشید
+                    </p>
+                    <div class="pt-2">
+                        <div class="border-start border-4 border-main px-3 my-3 ">
+                            <p class="fw-bold mb-0"> آدرس شرکت :</p>
+                            <div class="d-flex align-items-center">
+                                <i class="ri-map-pin-line text-main fs-4 me-2"></i>
+                                <span>  ایران - تهران - برج میلاد - استودیو لیمو</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="border-start border-4 border-main px-3 my-3">
+                            <p class="fw-bold mb-0"> ایمیل :</p>
+                            <div class="d-flex align-items-center">
+                                <i class="ri-mail-line text-main fs-4 me-2"></i>
+                                <span>info@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="border-start border-4 border-main px-3 my-3">
+                            <p class="fw-bold mb-0"> تلفن :</p>
+                            <div class="d-flex align-items-center">
+                                <i class="ri-phone-line text-main fs-4 me-2"></i>
+                                <span>0912 126 55 66</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 overflow-hidden">
+            <div class="gs_reveal gs_reveal_fromLeft">
+
+                <form action="mail-sender.php" class="py-4" id="contactForm" method="post">
+
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+
+                            <div class="form-floating mb-2 mb-md-3 form-group">
+                                <input class="form-control bg-light rounded-3"
+                                       data-error="لطفاً نام خود را وارد کنید" id="name_input"
+                                       name="name" placeholder="جان اسنو" required type="text">
+                                <label for="name_input">نام<span class="text-danger">*</span></label>
+                                <div class="help-block with-errors small px-1 text-danger"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-floating mb-2 form-group mb-md-3">
+                                <input class="form-control bg-light rounded-3"
+                                       data-error="لطفاً ایمیل خود را وارد کنید"
+                                       id="email_input" name="email"
+                                       placeholder="example@gmail.com" required type="email">
+                                <label for="email_input">ایمیل<span class="text-danger">*</span></label>
+                                <div class="help-block with-errors px-1 small text-danger"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-floating mb-2 form-group mb-md-3">
+                                <input class="form-control bg-light rounded-3"
+                                       data-error="لطفاً تلفن همراه خود را وارد کنید" id="phone_input"
+                                       name="phone" placeholder="تلفن همراه" required type="text">
+                                <label for="phone_input">تلفن همراه<span class="text-danger">*</span></label>
+                                <div class="help-block with-errors small px-1 text-danger"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <div class="form-floating mb-2 form-group has-feedback has-feedback-left mb-md-3">
+                                <input class="form-control bg-light rounded-3"
+                                       data-error="لطفاً موضوع خود را وارد کنید" id="subject_input"
+                                       name="subject" placeholder="موضوع" required type="text">
+                                <label for="subject_input">موضوع<span class="text-danger">*</span> </label>
+                                <div class="help-block with-errors small px-1 text-danger"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 ">
+                            <div class="rounded-3">
+                                <div class="form-floating form-group">
+                                <textarea class="form-control bg-light rounded-3 shadow-none"
+                                          data-error="لطفاً پیام خود را وارد کنید" id="message" name="message"
+                                          placeholder="پیغام شما" required style="height: 100px"></textarea>
+                                    <label for="message">پیغام شما</label>
+                                    <div class="help-block with-errors small px-1 text-danger"></div>
+                                </div>
+                                <div class="text-md-end mt-2">
+                                    <input class="btn btn-grad px-4 text-white trans py-1"
+                                           name="send_mail" type="submit" value="ارسال"/>
+                                </div>
+                            </div>
+                            <div class="mt-2" id="msgSubmit">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>

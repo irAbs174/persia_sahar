@@ -1,0 +1,45 @@
+{% load static %}
+<header class="bg-main sticky-top ">
+    <nav class="navbar navbar-dark tbg navbar-expand-lg py-0">
+        <div class="container-lg border-end border-start border-3 border-white position-relative border-none py-2">
+            <a class="navbar-brand me-5" href="#"><img alt="" src="{% static 'index/' %}assets/img/logo.png"></a>
+            <button aria-controls="offcanvasNavbar" class="navbar-toggler" data-bs-target="#offcanvasNavbar"
+                    data-bs-toggle="offcanvas" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div aria-labelledby="offcanvasNavbarLabel" class="offcanvas offcanvas-end mob-menu" id="offcanvasNavbar"
+                 tabindex="-1">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-main" id="offcanvasNavbarLabel">قالب بلوبری</h5>
+                    <button aria-label="Close" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas"
+                            type="button"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav nav flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link active" href="#home">خانه</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#options"> امکانات </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery"> گالری </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials"> نظرات مشتریان </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#plans"> تعرفه ها </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team"> تیم ما </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Portfolio"> نمونه کار ها </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq"> سوالات متداول </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"> تماس با ما </a></li>
+
+                    </ul>
+                    <div class="ms-auto register-box mt-4 mt-md-0 d-inline">
+                        <button class="btn border-0 shadow-none btn-light bg-transparent text-white lh-sm"> ورود
+                        </button>
+                        <button class="btn btn-light border-0 shadow-none lh-sm">عضویت</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" height="100%" viewBox="-1 -1 102 102" width="100%">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+        </svg>
+
+    </div>
+</header>
