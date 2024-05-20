@@ -1,8 +1,8 @@
 
 :root {
-    --mc: rgb(30, 90, 249);
-    --mcl: #7594E6;
-    --mc-light: #E7EDFF
+    --mc: #1C39BB;
+    --mcl: #81bce6;
+    --mc-light: #E7EDFF;
 }
 
 @-webkit-keyframes AnimationName {
@@ -1063,7 +1063,7 @@ header.solid .navbar > div {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    background: white;
+    background: rgb(5, 86, 177);
     width: 100%;
     height: 100%;
     top: 0;
@@ -1091,7 +1091,7 @@ header.solid .navbar > div {
 }
 
 .loading-logo {
-    color: white;
+    color: rgb(37, 47, 233);
     font-size: 30px;
     opacity: 1;
     margin: 0 auto;

@@ -1,0 +1,11 @@
+v0.0.1 
+
+
+works :
+
+#ABS 20/05/2024 => {
+    1. start index application
+    2. setting basic configure for index application
+    3. setting landing page load (basic load)
+    4. create layout dir and base template for main landing
+}

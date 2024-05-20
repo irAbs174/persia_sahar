@@ -642,4 +642,3 @@ $(document).ready(function () {
     })
     TweenMax.to('.gear i', 2, {rotation: "+=360", repeat: -1, ease: Linear.easeNone, transformOrigin: "50% 50%"});
 });
-
