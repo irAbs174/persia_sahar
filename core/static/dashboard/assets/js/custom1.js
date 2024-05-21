@@ -894,7 +894,7 @@
         $("html[lang=en]").attr("dir", "rtl");
         $('body').removeClass('ltr');
         $("head link#style").attr("href", $(this));
-        (document.getElementById("style").setAttribute("href", "../assets/plugins/bootstrap/css/bootstrap.rtl.min.css"));
+        (document.getElementById("style").setAttribute("href", "../plugins/bootstrap/css/bootstrap.rtl.min.css"));
         var carousel = $('.owl-carousel');
         $.each(carousel, function (index, element) {
             // element == this
@@ -991,7 +991,7 @@ $(document).on("click", '#myonoffswitch24', function () {
         $("html[lang=en]").attr("dir", "rtl");
         $('body').removeClass('ltr');
         $("head link#style").attr("href", $(this));
-        (document.getElementById("style").setAttribute("href", "../assets/plugins/bootstrap/css/bootstrap.rtl.min.css"));
+        (document.getElementById("style").setAttribute("href", "../plugins/bootstrap/css/bootstrap.rtl.min.css"));
         var carousel = $('.owl-carousel');
         $.each(carousel, function (index, element) {
             // element == this
