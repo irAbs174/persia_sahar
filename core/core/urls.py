@@ -17,6 +17,7 @@ import os
 urlpatterns = [
     path('', include('index.urls')),
     path('unique/', admin.site.urls),
+    path('dashboard/', include("dashboard.urls")),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
